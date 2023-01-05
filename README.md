@@ -1,4 +1,12 @@
-# 编译原理实验指导说明
+# HUST CSE 2021编译原理实验 MiniC编译器
+
+使用Flex,Bison,LLVM完成MiniC编译器。
+
+实验分为5个lab，每个lab细分task，指导书见其目录下。
+
+可使用github codespace学习本项目，评测脚本见下说明，通过测评进行的文件修改见commit记录。
+
+## 编译原理实验指导说明
 
 1. 实验环境为Ubuntu20.04系统，安装有LLVM-10，clang-10，git，vscode-server及相关插件等基础软件。
 2. 实验内容的源为<http://222.20.94.23:24080/dog/minic>，可通过git拉取到本地，并把文件夹命名为miniC，即在路径下有/ubuntu/cse/miniC/。不要修改已存在的文件结构，避免判题错误。
